@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+
+}
+
+header img {
+    width: 15vw;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+nav {
+    width: 35vw;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    transition: 0.5s;
+    width: 15vw;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+ul li:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.urlJogos {
+    width: 9vw;
+    background-color: lightgray;
+    transition: 0.5s;
+}
+
+.urlJogos:hover {
+    transition: 0.5s;
+    background-color: darkgray;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 4rem;
+    text-align: center;
+    font-weight: 500;
+}
+
+.inicioJogos {
+    background-image: url("/imagens/background\ games\ ps2.jpg");
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIntroducao {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: black;
+    width: 45%;
+    height: 65vh;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logoPS2 {
+    width: 10vw;
+}
+
+.videoJogosPS2 {
+    border-radius: 20px;
+    transition: 0.6s;
+}
+
+.videoJogosPS2:hover {
+    transform: scale(1.04);
+    transition: 0.6s;
+    box-shadow: 5px 5px 5px 0;
+}
+
+.containerMelhoresJogos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.containerJogos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.jogos {
+    background-color: #19223E;
+    width: 45%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+    transition: 0.4s;
+}
+
+.jogos img {
+    width: 30vw;
+    border-radius: 5px;
+}
+
+.jogos button {
+    border-radius: 20px;
+    width: 10vw;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    transition: 0.5s;
+}
+
+.jogos:hover {
+    transition: 0.4s;
+    box-shadow: 5px 5px 5px 5px black;
+}
+
+.jogos button:hover {
+    transition: 0.5s;
+    transform: scale(1.04);
+}
+.nomeJogo {
+    font-weight: bold;
+}
+footer {
+    background-color: #0c2d58;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-top: 1rem;
+}
+.logoFooter {
+    width: 20vw;
+    position: relative;
+    bottom: 2rem;
+}
+hr {
+    margin-top: -3rem;
+}
+.opcoesFooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    align-items: center;
+    margin-left: 15rem;
+}
+.containerOpcoes1 {
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 18vh;
+}
+.opcoes {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+.linksFooter {
+    cursor: pointer;
+    color: white;
+}
+.linksFooter:hover {
+    color: lightgray;
+}
+.containerOpcoes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -1rem;
+}
+.containerImgContatos {
+    display: flex;
+}
+.containerImgContatos img {
+    width: 3vw;
+    height: 5vh;
+    cursor: pointer;
+    margin-top: 1rem;
+}
