@@ -69,7 +69,7 @@ main {
 }
 .containerPs2 p {
     font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
+    font-size: 1.9rem;
     width: 60vw;
 }
 .containerConsole {
@@ -78,6 +78,16 @@ main {
     width: 35vw;
     text-align: center;
     margin-top: 1rem;
+}
+.informacoesPS2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50vh;
+}
+.informacoesPS2 p {
+    font-size: 1.7rem;
 }
 .consoles {
     width: 30vw;
@@ -91,8 +101,8 @@ main {
     transition: 0.7s;
 }
 .videoPs2:hover {
-    transform: scale(1.03);
-    transition: 0.7s;
+    transform: scale(1.02);
+    transition: 0.6s;
 }
 footer {
     background-color: #0c2d58;
@@ -106,9 +116,6 @@ footer {
     position: relative;
     bottom: 2rem;
 }
-hr {
-    margin-top: -3rem;
-}
 .opcoesFooter {
     display: flex;
     justify-content: space-evenly;
@@ -120,15 +127,18 @@ hr {
 display: flex;
 flex-direction: column;
 justify-content: space-evenly;
+align-items: center;
 height: 18vh;
 }
+
 .opcoes {
     font-weight: 600;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
 }
 .linksFooter {
     cursor: pointer;
     color: white;
+    font-size: 1.1rem;
 }
 .linksFooter:hover {
     color: lightgray;
@@ -137,7 +147,7 @@ height: 18vh;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    margin-top: -1rem;
+    margin-top: -0.7rem;
 }
 .containerImgContatos {
     display: flex;
@@ -147,4 +157,7 @@ height: 18vh;
     height: 5vh;
     cursor: pointer;
     margin-top: 1rem;
+}
+.containerImgContatos img:hover {
+    opacity: 0.4;
 }
