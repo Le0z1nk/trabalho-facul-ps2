@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+header img {
+    width: 15vw;
+    cursor: pointer;
+}
+nav {
+    width: 40vw;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul li {
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 20px;
+    transition: 0.5s;
+    width: 15vw;
+    text-align: center;
+    cursor: pointer;
+    
+}
+ul li:hover {
+    background-color: lightgray;
+    transition: 0.5s;
+}
+.linkHome {
+    background-color: darkgray;
+    width: 7vw;
+}
+#slider {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 100% 100%;
+    transition: 0.5s;
+}
+.containerInicio {
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    backdrop-filter: blur(6px);
+    border-radius: 40px;
+}
+.containerInicio h1 {
+    width: 40vw;
+}
+.containerInicio button  {
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: rgb(201, 200, 200);
+    width: 8vw;
+}
+footer {
+    background-color: gray;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+}
+.logoFooter {
+    width: 15vw;
+    height: 15vh;
+    cursor: pointer;
+}
+.opcoesFooter {
+    display: flex;
+    justify-content: space-evenly;
+    width: 20vw;
+    align-items: center;
+    margin-left: 20rem;
+}
+.opcoes {
+    font-weight: 600;
+    font-size: 2rem;
+}
+.containerOpcoes2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -0.5rem;
+}
+.containerImgContatos {
+    display: flex;
+}
+.containerImgContatos img {
+    width: 3vw;
+    height: 5vh;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 1rem;
+}
+.containerImgContatos img:hover {
+    opacity: 0.4;
+}
