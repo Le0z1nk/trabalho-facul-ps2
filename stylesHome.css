@@ -44,7 +44,7 @@ ul li:hover {
     width: 7vw;
 }
 #slider {
-    height: 80vh;
+    height: 90vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,18 +59,19 @@ ul li:hover {
     justify-content: space-around;
     align-items: center;
     font-family: 'Montserrat', sans-serif;
-    backdrop-filter: blur(6px);
-    border-radius: 40px;
+    background-color: rgba(211, 211, 211, 0.4);
+    border-radius: 35px;
 }
 .containerInicio h1 {
-    width: 40vw;
+    width: 65vw;
+    font-size: 3rem;
 }
 .containerInicio button  {
     border: none;
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     cursor: pointer;
     border-radius: 10px;
-    background-color: rgb(201, 200, 200);
+    background-color: white;
     width: 8vw;
 }
 footer {

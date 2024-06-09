@@ -156,9 +156,11 @@ h2 {
     transition: 0.5s;
     transform: scale(1.04);
 }
+
 .nomeJogo {
     font-weight: bold;
 }
+
 footer {
     background-color: #0c2d58;
     color: white;
@@ -166,11 +168,13 @@ footer {
     display: flex;
     margin-top: 1rem;
 }
+
 .logoFooter {
     width: 20vw;
     position: relative;
     bottom: 2rem;
 }
+
 .opcoesFooter {
     display: flex;
     justify-content: space-evenly;
@@ -178,35 +182,41 @@ footer {
     align-items: center;
     margin-left: 15rem;
 }
+
 .containerOpcoes1 {
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-align-items: center;
-height: 18vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 18vh;
 }
 
 .opcoes {
     font-weight: 600;
     font-size: 1.7rem;
 }
+
 .linksFooter {
     cursor: pointer;
     color: white;
     font-size: 1.1rem;
 }
+
 .linksFooter:hover {
     color: lightgray;
 }
+
 .containerOpcoes2 {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     margin-top: -1.5rem;
 }
+
 .containerImgContatos {
     display: flex;
 }
+
 .containerImgContatos img {
     width: 3vw;
     height: 5vh;
@@ -214,9 +224,38 @@ height: 18vh;
     margin-top: 1rem;
     margin-left: 0.5rem;
 }
+
 .containerImgContatos img:hover {
     opacity: 0.4;
 }
+
 button {
     cursor: pointer;
+}
+
+.appear {
+    transition: all 0.8s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.appear.inview {
+    opacity: 1;
+    transform: none;
+}
+
+.appear.inview:nth-child(1) {
+    transition-delay: 0.1s;
+}
+
+.appear.inview:nth-child(2) {
+    transition-delay: 0.1s;
+}
+
+.appear.inview:nth-child(3) {
+    transition-delay: 0.1s;
+}
+
+.appear.inview:nth-child(4) {
+    transition-delay: 0.1s;
 }

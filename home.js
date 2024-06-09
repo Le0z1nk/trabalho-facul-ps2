@@ -16,6 +16,6 @@ function passarSlides() {
 
 function iniciarSlides() {
     document.querySelector("#slider").style.backgroundImage=`url("${slides[slideAtual]}")`
-    tempoSlider = setInterval(passarSlides, 2000)
+    tempoSlider = setInterval(passarSlides, 2500)
 }
 iniciarSlides()
