@@ -180,3 +180,9 @@ height: 18vh;
 .containerImgContatos img:hover {
     opacity: 0.4;
 }
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+    ul li {
+       font-size: 1.8rem;
+    }
+}

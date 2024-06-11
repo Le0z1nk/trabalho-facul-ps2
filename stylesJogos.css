@@ -259,3 +259,9 @@ button {
 .appear.inview:nth-child(4) {
     transition-delay: 0.1s;
 }
+
+@media (min-width: 1300px) and (max-width: 1500px) {
+    ul li {
+       font-size: 1.8rem;
+    }
+}
